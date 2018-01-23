@@ -26,7 +26,7 @@ class BookList extends React.Component<models.IBookListProps, any> {
     }
 }
 
-function mapStateToProps(state: models.IBookListProps) {
+function mapStateToProps(state: models.IAppState) {
     // Whatever is returned will show up as props
     // inside of BookList
     return {

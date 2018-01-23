@@ -6,6 +6,11 @@ declare module models {
 
     interface IBook {
         title?: string;
+        pages?: number;
+    }
+
+    interface IBookDetailProps {
+        book?: IBook;
     }
 
     interface IBookListProps {
