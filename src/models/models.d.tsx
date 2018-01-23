@@ -10,5 +10,11 @@ declare module models {
 
     interface IBookListProps {
         books?: Array<IBook>;
+        selectBook?: (book: IBook) => any;
+    }
+
+    interface IAction {
+        type?: string;
+        payload?: Object
     }
 }
