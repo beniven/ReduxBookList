@@ -1,5 +1,5 @@
 declare module models {
-    interface iAppState {
+    interface IAppState {
         books?: Array<IBook>;
         activeBook?: IBook;
     }
